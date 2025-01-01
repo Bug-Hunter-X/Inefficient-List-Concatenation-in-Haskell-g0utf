@@ -1,0 +1,1 @@
+This Haskell code attempts to use the `++` operator to concatenate lists, but it does so inefficiently. The `++` operator has O(n) time complexity, where n is the length of the first list.  If the code repeatedly concatenates to the head of a list, the overall time complexity becomes O(n^2).
